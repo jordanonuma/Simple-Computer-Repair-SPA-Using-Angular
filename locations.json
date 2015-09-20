@@ -1,0 +1,33 @@
+[
+  {
+    "id": 1,
+    "name": "Test Locations (this is dynamic--from locations.json)",
+    "street_address": "9.75 Secondfloor Street",
+    "city": "Ethereal City",
+    "state": "OK",
+    "zip": "00000",
+    "phone":"(234) 283-2382"
+  },
+  
+  {
+    "id": 1,
+    "name": "Omnivore Surfing (this is also dynamic--from locations.json)",
+    "street_address": "15 Vegan Loop",
+    "city": "Actual City",
+    "state": "NO",
+    "zip": "00000",
+    "phone":"(000) 111-2829"
+  },
+  
+  {
+    "id": 1,
+    "name": "Carnivore Skateboarding (this is also dynamic--from locations.json)",
+    "street_address": "1 Rampup Street",
+    "city": "Pipelines City",
+    "state": "SI",
+    "zip": "00000",
+    "phone":"(111) 000-2382"
+  }
+
+]
+

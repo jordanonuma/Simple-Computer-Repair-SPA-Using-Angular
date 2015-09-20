@@ -1,23 +1,12 @@
           <h2>Contact</h2>
           <p>Please email i@basicwebsite.thisnnotarealaddress</p>
           <h3>Locations</h3>
+          
+          <div ng-repeat="location in locations">
           <ul class="location">
-            <li>Test Locations</li>
+            <li>{{location.name}}</li>
             <li>9.75 Secondfloor Street</li>
             <li>Ethereal City, OK 00000</li>
             <li>(234) 283-2382</li>
           </ul>
-          
-          <ul class="location">
-            <li>Omnivore Surfing</li>
-            <li>15 Vegan Loop</li>
-            <li>Actual City, NO 00000</li>
-            <li>(000) 111-2829</li>
-          </ul>
-          
-          <ul class="location">
-            <li>Carnivore Skateboarding</li>
-            <li>1 Rampup Street</li>
-            <li>Pipelines City, SI 00000</li>
-            <li>(111) 000-2382</li>
-          </ul>
+          </div>

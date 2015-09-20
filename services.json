@@ -1,22 +1,22 @@
 [
   {
     "id": 1,
-    "name": "Hardware Repair",
+    "name": "Hardware Kung Fu Repair (this is dynamic--from services.json)",
     "description": "Fusce vel odio quis dolor tincidunt tristique semper nec massa. Donec eget cursus ante. Fusce nisi ex, euismod ut justo nec, pulvinar luctus tortor. Curabitur nec ex et enim convallis gravida eleifend ut neque. Sed condimentum, diam quis auctor vulputate, sapien libero venenatis elit, vestibulum pretium tellus metus eu sapien. Nullam vitae tellus ac diam tempus viverra. Mauris eu sollicitudin nulla. Nulla facilisi. Sed ultricies lectus in blandit sodales. Nulla viverra felis quis metus venenatis, in lacinia nisl pretium. Curabitur magna nisl, vestibulum non massa quis, mollis tempor lacus. Aliquam imperdiet odio nunc, quis maximus nisi varius vitae. Ut eu accumsan erat. Vivamus tincidunt justo nec ullamcorper rutrum.",
     "image": "ethereum-icon.png"
   },
   
   {
     "id": 1,
-    "name": "Virus Removal",
-    "description": "Fusce vel odio quis dolor tincidunt tristique semper nec massa. Donec eget cursus ante. Fusce nisi ex, euismod ut justo nec, pulvinar luctus tortor. Curabitur nec ex et enim convallis gravida eleifend ut neque. Sed condimentum, diam quis auctor vulputate, sapien libero venenatis elit, vestibulum pretium tellus metus eu sapien. Nullam vitae tellus ac diam tempus viverra. Mauris eu sollicitudin nulla. Nulla facilisi. Sed ultricies lectus in blandit sodales. Nulla viverra felis quis metus venenatis, in lacinia nisl pretium. Curabitur magna nisl, vestibulum non massa quis, mollis tempor lacus. Aliquam imperdiet odio nunc, quis maximus nisi varius vitae. Ut eu accumsan erat. Vivamus tincidunt justo nec ullamcorper rutrum.",
+    "name": "Virus Removal (this is also dynamic--from services.json)",
+    "description": "Sonotros sois virus removal: usce vel odio quis dolor tincidunt tristique semper nec massa. Donec eget cursus ante. Fusce nisi ex, euismod ut justo nec, pulvinar luctus tortor. Curabitur nec ex et enim convallis gravida eleifend ut neque. Sed condimentum, diam quis auctor vulputate, sapien libero venenatis elit, vestibulum pretium tellus metus eu sapien. Nullam vitae tellus ac diam tempus viverra. Mauris eu sollicitudin nulla. Nulla facilisi. Sed ultricies lectus in blandit sodales. Nulla viverra felis quis metus venenatis, in lacinia nisl pretium. Curabitur magna nisl, vestibulum non massa quis, mollis tempor lacus. Aliquam imperdiet odio nunc, quis maximus nisi varius vitae. Ut eu accumsan erat. Vivamus tincidunt justo nec ullamcorper rutrum.",
     "image": "ethereum-icon.png"
   },
   
   {
     "id": 1,
-    "name": "System Tuneup",
-    "description": "Fusce vel odio quis dolor tincidunt tristique semper nec massa. Donec eget cursus ante. Fusce nisi ex, euismod ut justo nec, pulvinar luctus tortor. Curabitur nec ex et enim convallis gravida eleifend ut neque. Sed condimentum, diam quis auctor vulputate, sapien libero venenatis elit, vestibulum pretium tellus metus eu sapien. Nullam vitae tellus ac diam tempus viverra. Mauris eu sollicitudin nulla. Nulla facilisi. Sed ultricies lectus in blandit sodales. Nulla viverra felis quis metus venenatis, in lacinia nisl pretium. Curabitur magna nisl, vestibulum non massa quis, mollis tempor lacus. Aliquam imperdiet odio nunc, quis maximus nisi varius vitae. Ut eu accumsan erat. Vivamus tincidunt justo nec ullamcorper rutrum.",
+    "name": "System Tuneup (this is also dynamic--from services.json)",
+    "description": "Nosotros somos system tuneup: fusce vel odio quis dolor tincidunt tristique semper nec massa. Donec eget cursus ante. Fusce nisi ex, euismod ut justo nec, pulvinar luctus tortor. Curabitur nec ex et enim convallis gravida eleifend ut neque. Sed condimentum, diam quis auctor vulputate, sapien libero venenatis elit, vestibulum pretium tellus metus eu sapien. Nullam vitae tellus ac diam tempus viverra. Mauris eu sollicitudin nulla. Nulla facilisi. Sed ultricies lectus in blandit sodales. Nulla viverra felis quis metus venenatis, in lacinia nisl pretium. Curabitur magna nisl, vestibulum non massa quis, mollis tempor lacus. Aliquam imperdiet odio nunc, quis maximus nisi varius vitae. Ut eu accumsan erat. Vivamus tincidunt justo nec ullamcorper rutrum.",
     "image": "ethereum-icon.png"
   }
 

@@ -21,18 +21,26 @@ app.config(['$routeProvider',function($routeProvider){
     otherwise({redirectTo:'/main'});
 }]);
 
-app.controller('MainController',['$scope',function($scope){
+app.controller('MainController',['$scope','$http',function($scope, $http){
   $scope.person = 'Soluciones Informáticas';
   console.log('$scope');
+  
+  $http.get('services.json').then(function(response){
+    $scope.services = response.data;
+  });
+  
   
 }]);
 
 app.controller('ServicesController',['$scope','$http',function($scope, $http){
   $http.get('services.json').then(function(response){
-    console.log(response);
+    console.log(response.data);
+    $scope.services = response.data;
   });
 }]);
 
-app.controller('ContactController',['$scope',function($scope){
-
+app.controller('ContactController',['$scope','$http',function($scope, $http){
+  $http.get('locations.json').then(function(response){
+    $scope.locations = response.data;
+  });
 }]);

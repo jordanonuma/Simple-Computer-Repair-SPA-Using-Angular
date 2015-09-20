@@ -1,31 +1,13 @@
 <h2>Services</h2>
-          <div class="row service">
-            <div class="col-md-2">
-              <img src="http://i.imgur.com/LU0pDue.png">
-            </div>
-            <div class="col-md-10">
-              <h3>Hardware Repair</h3>
-                <p> Aenean non aliquam urna. Sed a vestibulum lectus. Fusce a risus sed dui faucibus aliquam. Duis varius lobortis suscipit. Aenean porta tortor magna, vel molestie nulla luctus sit amet. Vestibulum sed fermentum ante. Donec varius dui urna, ut ultrices diam scelerisque rutrum. Mauris non luctus ligula. Maecenas ornare feugiat sapien ac euismod.</p>
-                <a href="contact.html" class="btn btn-primary">Contact Us</a>
-            </div>  
-          </div>
-          <div class="row service">
-            <div class="col-md-2">
-              <img src="http://i.imgur.com/LU0pDue.png">
-            </div>
-            <div class="col-md-10">
-              <h3>Hardware Repair</h3>
-                <p>In laoreet massa quis dui finibus efficitur. Sed porta, neque quis sodales malesuada, sem ligula scelerisque leo, et pretium tellus sapien sed ipsum. Nam non orci elementum, ornare purus ac, ultricies nunc. Nullam semper porta odio eget porttitor. Vivamus imperdiet malesuada quam, lobortis viverra nisl condimentum vitae. Donec hendrerit tempor purus vel cursus. Vestibulum et pretium odio, et tincidunt libero. Nulla vitae luctus mi. Proin blandit arcu quis fringilla pulvinar. Phasellus vitae purus placerat, blandit nulla sed, pharetra odio. Etiam pretium pharetra interdum. Maecenas at quam tempus, rhoncus eros quis, congue lacus. Nunc quis vehicula quam. Sed ligula purus, volutpat non nulla et, tincidunt blandit nunc. Aliquam erat volutpat. Aliquam quis felis eget quam commodo rhoncus.</p>
-                <a href="contact.html" class="btn btn-primary">Contact Us</a>
-            </div>  
-          </div>
-          <div class="row service">
-            <div class="col-md-2">
-              <img src="http://i.imgur.com/LU0pDue.png">
-            </div>
-            <div class="col-md-10">
-              <h3>Hardware Repair</h3>
-                <p>Quisque pretium maximus sapien a blandit. Maecenas at ante nec nisl sodales varius. Integer molestie at nunc quis rutrum. Maecenas posuere ex ipsum, ornare cursus nisl tincidunt vitae. Nunc rutrum diam vel nibh fringilla, ut fermentum turpis molestie. In quis consectetur nulla. Morbi iaculis cursus pellentesque. Nunc vel lacinia nunc. Nunc id erat eu dolor viverra sodales eget et ligula. Sed fermentum neque vitae scelerisque pulvinar. Fusce ac blandit massa. Mauris varius quam eget urna consectetur, vel porttitor erat sagittis. Nullam consectetur ornare diam, ut posuere ligula ultricies ac. </p>
-                <a href="contact.html" class="btn btn-primary">Contact Us</a>
-            </div>  
-          </div>
+<div ng-repeat="service in services">
+  <div class="row service">
+    <div class="col-md-2">
+      <img src="http://i.imgur.com/LU0pDue.png">
+    </div>
+    <div class="col-md-10">
+      <h3>{{service.name}}</h3>
+        <p>{{service.description}} </p>
+        <a href="contact.html" class="btn btn-primary">Contact Us</a>
+    </div>  
+  </div>
+</div>
